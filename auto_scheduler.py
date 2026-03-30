@@ -33,7 +33,7 @@ AUTO_PARAMS = {
 }
 
 # 探测配置
-PROBE_MAX_COUNT = 0        # 每次最多探测多少个账号（0 = 不限制，全部探测）
+PROBE_MAX_COUNT = 1        # 每次最多探测多少个账号（0 = 不限制，全部探测）
 PROBE_WORKERS = 12           # 探测并发数
 PROBE_TIMEOUT = 10           # 单次探测超时（秒）
 CPA_REQUEST_RETRIES = 3
