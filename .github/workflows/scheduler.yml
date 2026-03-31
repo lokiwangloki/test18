@@ -2,7 +2,7 @@ name: Hourly Auto Scheduler
 
 on:
   schedule:
-    - cron: '3,33 * * * *'  # 每30分钟固定错峰执行，避开整点高峰
+    - cron: '10,40 * * * *'  # 每30分钟固定错峰执行，避开整点高峰
   workflow_dispatch: {}
 
 concurrency:
